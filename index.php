@@ -64,13 +64,16 @@
         </div>
         <div class="row row-bottom-padded-sm">
           <div class="col-md-6">
-            <p><img src="images/slider_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive img-bordered">
+            <p><img src="images/home_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive img-bordered">
             </p>
           </div>
           <div class="col-md-6 padded-top">
-            <h3>Creative Title Here</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum fuga rerum doloremque dolore, molestias
-              eligendi. Nulla aliquam aut doloribus tenetur repellendus omnis dicta, unde magni.</p>
+            <h3>Communications and Outreach</h3>
+            <p>The BART Silicon Valley Community Outreach Team provides timely, pertinent project information and
+              responds to project inquiries or concerns via the project hotline or email. The VTA's BART Silicon Valley
+              Extension website links to project fact sheets, news releases, maps, calendars/schedules, graphics,
+              videos, and other multimedia resources, and will be updated as activities occur. Program updates and
+              information are also available via Facebook and Twitter.</p>
             <ul class="ul_style_1">
               <li>Lorem ipsum dolor sit amet</li>
               <li>Consectetur adipisicing elit</li>
@@ -85,27 +88,35 @@
             <div class="fh5co-service text-center">
               <img src="images/slider_1.jpg" class="img-responsive img-bordered"
                    alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Graphic Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
+              <h3>Intermodal</h3>
+              <p>Intermodal freight transport involves the transportation of freight in an intermodal container or
+                vehicle, using multiple modes of transportation (e.g., rail, ship, and truck), without any handling of
+                the freight itself when changing modes. The method reduces cargo handling, and so improves security,
+                reduces damage and loss, and allows freight to be transported faster. Reduced costs over road trucking
+                is the key benefit for inter-continental use. This may be offset by reduced timings for road transport
+                over shorter distances.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="fh5co-service text-center">
               <img src="images/slider_2.jpg" class="img-responsive img-bordered"
                    alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Web Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
+              <h3>Switching</h3>
+              <p>A railroad switch (AE), turnout, or [set of] points (BE) is a mechanical installation enabling railway
+                trains to be guided from one track to another, such as at a railway junction or where a spur or siding
+                branches off.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="fh5co-service text-center">
               <img src="images/slider_3.jpg" class="img-responsive img-bordered"
                    alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Web Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
+              <h3>Automotive</h3>
+              <p>A railroad car or railcar (American and Canadian English),[a] railway wagon or railway carriage
+                (British English) and UIC), also called a train car or train wagon, is a vehicle used for the carrying
+                of cargo or passengers on a rail transport system (a railroad/railway). Such cars, when coupled together
+                and hauled by one or more locomotives, form a train. Alternatively, some passenger cars are
+                self-propelled in which case they may be either single railcars or make up multiple units.</p>
             </div>
           </div>
         </div>

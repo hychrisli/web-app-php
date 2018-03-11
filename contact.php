@@ -15,10 +15,11 @@
         <div class="row row-bottom-padded-sm">
           <div class="col-md-8 col-md-offset-2 text-center ts-intro">
             <h1>Get In Touch</h1>
-            <p class="fh5co-lead">Template handcrafted by <a href="http://freehtml5.co/"
-                                                             target="_blank">FreeHTMl5.co</a> Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Dolores explicabo quibusdam quae saepe non quasi quaerat adipisci eum
-              dignissimos similique!</p>
+            <p class="fh5co-lead">If you have difficulty accessing any material on this site because of a disability,
+              please contact the Authority at our TTY/TTD assistance line at (800) 881-5799 or the California Relay
+              Service at 711. If you need interpretation services, please contact the Authority at our TTY/TTD
+              assistance line at (800) 881-5799 or the California Relay Service at 711 Click here for additional contact
+              information</p>
           </div>
         </div>
         <div class="row row-bottom-padded-sm">
