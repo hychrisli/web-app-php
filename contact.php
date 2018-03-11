@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Meteoric - High Speed Rail Management</title>
+  <title>Cache &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Free HTML5 Template by FREEHTML5.CO"/>
   <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"/>
@@ -56,10 +56,8 @@
   <!--[if lt IE 9]>
   <script src="js/respond.min.js"></script>
   <![endif]-->
-
-</head>
+	</head>
 <body class="boxed">
-
 <!-- Loader -->
 <div class="fh5co-loader"></div>
 
@@ -79,22 +77,22 @@
                 <a href="services.html">Services</a>
                 <div class="dropdown-menu-wrap">
                   <ul>
-                    <li><a href="#">Intermodal</a></li>
-                    <li><a href="#">Switching</a></li>
-                    <li><a href="#">Automotive</a></li>
-                    <li><a href="#">Maintenance</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Branding</a></li>
                   </ul>
                 </div>
               </div>
             </li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li class="has-sub">
+            <li class="has-sub active">
               <div class="drop-down-menu">
                 <a href="#">Sidebars</a>
                 <div class="dropdown-menu-wrap">
                   <ul>
                     <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                    <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                    <li class="active"><a href="left-sidebar.html">Left Sidebar</a></li>
 
                   </ul>
                 </div>
@@ -107,104 +105,52 @@
     </header>
     <!-- Header -->
 
-    <div class="fh5co-slider">
-      <div class="container">
-        <div class="owl-carousel owl-carousel-main">
-          <div><img src="images/slider_1.jpg" alt="Free HTML5 Website Template"></div>
-          <div><img src="images/slider_2.jpg" alt="Free HTML5 Website Template"></div>
-          <div><img src="images/slider_3.jpg" alt="Free HTML5 Website Template"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Slider -->
-
     <div id="fh5co-intro" class="fh5co-section">
       <div class="container">
-        <div class="row row-bottom-padded-md">
+        <div class="row row-bottom-padded-sm">
           <div class="col-md-8 col-md-offset-2 text-center ts-intro">
-            <h1>New Era</h1>
-            <p class="fh5co-lead">Rail transport is a means of transferring of passengers and goods on wheeled vehicles
-              running on rails, also known as tracks. It is also commonly referred to as train transport. In contrast to
-              road transport, where vehicles run on a prepared flat surface, rail vehicles (rolling stock) are
-              directionally guided by the tracks on which they run. Tracks usually consist of steel rails, installed on
-              ties (sleepers) and ballast, on which the rolling stock, usually fitted with metal wheels, moves. Other
-              variations are also possible, such as slab track, where the rails are fastened to a concrete foundation
-              resting on a prepared subsurface.</p>
+            <h1>Get In Touch</h1>
+            <p class="fh5co-lead">Template handcrafted by <a href="http://freehtml5.co/"
+                                                             target="_blank">FreeHTMl5.co</a> Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Dolores explicabo quibusdam quae saepe non quasi quaerat adipisci eum
+              dignissimos similique!</p>
           </div>
         </div>
         <div class="row row-bottom-padded-sm">
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <span class="fh5co-service-icon fh5co-icon-pentagon"><i class="icon-tools-2"></i></span>
-              <h3>Tools We Use</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
+          <div class="col-md-6" id="fh5co-content">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Send Message">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 col-md-push-1 col-sm-12 col-sm-push-0" id="fh5co-sidebar">
+            <div class="fh5co-contact-info">
+              <h3>Contact Info</h3>
+              <?php $lines = file('./resource/contact.txt');?>
+              <address>
+                <?php echo $lines[0] ?>
+              </address>
+              <p>Tel: <?php echo $lines[1]?></p>
+              <p>Email: <a href="#"><?php echo $lines[2]?></a></p>
+              <p>Website: <a href="#"><?php echo $lines[3]?></a></p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <span class="fh5co-service-icon fh5co-icon-pentagon"><i class="icon-trophy22"></i></span>
-              <h3>Award Winning Company</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <span class="fh5co-service-icon fh5co-icon-pentagon"><i class="icon-profile-male"></i></span>
-              <h3>24/7 Customer Support</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row row-bottom-padded-sm">
-          <div class="col-md-6">
-            <p><img src="images/slider_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive img-bordered">
-            </p>
-          </div>
-          <div class="col-md-6 padded-top">
-            <h3>Creative Title Here</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum fuga rerum doloremque dolore, molestias
-              eligendi. Nulla aliquam aut doloribus tenetur repellendus omnis dicta, unde magni.</p>
-            <ul class="ul_style_1">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Consectetur adipisicing elit</li>
-              <li>Recusandae laboriosam eligendi maiores</li>
-              <li>Sapiente repudiandae perspiciatis</li>
-            </ul>
+
           </div>
         </div>
 
-        <div class="row row-bottom-padded-sm">
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <img src="images/slider_1.jpg" class="img-responsive img-bordered"
-                   alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Graphic Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <img src="images/slider_2.jpg" class="img-responsive img-bordered"
-                   alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Web Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="fh5co-service text-center">
-              <img src="images/slider_3.jpg" class="img-responsive img-bordered"
-                   alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-              <h3>Web Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam unde, totam harum laboriosam
-                dolores.</p>
-            </div>
-          </div>
-        </div>
 
       </div>
     </div>
