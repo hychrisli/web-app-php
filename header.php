@@ -20,6 +20,7 @@
           </div>
         </li>
         <li><a href="news.php">News</a></li>
+        <li><a href="login.php">Members</a></li>
         <li class="cta"><a href="contact.php">Contact</a></li>
       </ul>
     </nav>
