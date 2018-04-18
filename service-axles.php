@@ -1,3 +1,7 @@
+<?php include 'set-cookie.php';
+setServiceCookie('Axles', basename($_SERVER['PHP_SELF']));
+?>
+
 <?php include 'html-head.php'; ?>
 <body class="boxed">
 <!-- Loader -->
@@ -7,6 +11,15 @@
 
   <div id="fh5co-page">
     <?php include 'header.php'; ?>
+    <?php
+      if (isset($_COOKIE['last5'])){
+        $last5 = unserialize($_COOKIE['last5']);
+      } else {
+        $last5 = [];
+      }
+      $last5 ['Axles'] = ['service-axles.php', time()];
+      setcookie('last5', serialize($last5));
+    ?>
     <img src="images/services/axles.jpeg" class="img-responsive img-bordered center-block">
     <div id="fh5co-intro" class="fh5co-section">
       <div class="container">

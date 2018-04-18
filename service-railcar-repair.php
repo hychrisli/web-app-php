@@ -1,3 +1,7 @@
+<?php include 'set-cookie.php';
+setServiceCookie('Rail Car Repair', basename($_SERVER['PHP_SELF']));
+?>
+
 <?php include 'html-head.php'; ?>
 <body class="boxed">
 <!-- Loader -->

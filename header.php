@@ -39,6 +39,17 @@
             </div>
           </div>
         </li>
+        <li class="has-sub">
+          <div class="drop-down-menu">
+            <a>visits</a>
+            <div class="dropdown-menu-wrap">
+              <ul>
+                <li><a href="visits-last-5.php">Last 5 visited</a></li>
+                <li><a href="visits-top-5.php">Top 5 Pages</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
         <li><a href="news.php">News</a></li>
         <li class="cta"><a href="contact.php">Contact</a></li>
       </ul>

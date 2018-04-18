@@ -1,3 +1,7 @@
+<?php include 'set-cookie.php';
+setServiceCookie('Railway Consulting', basename($_SERVER['PHP_SELF']));
+?>
+
 <?php include 'html-head.php'; ?>
 <body class="boxed">
 <!-- Loader -->
