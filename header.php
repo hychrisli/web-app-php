@@ -11,10 +11,18 @@
             <a href="services.php">Services</a>
             <div class="dropdown-menu-wrap">
               <ul>
-                <li><a href="services.php">Intermodal</a></li>
-                <li><a href="services.php">Switching</a></li>
-                <li><a href="services.php">Automotive</a></li>
-                <li><a href="services.php">Maintenance</a></li>
+                <li><a href="service-axles.php">Axles</a></li>
+                <li><a href="service-bearings.php">Bearings</a></li>
+                <li><a href="service-wheels.php">Wheels</a></li>
+                <li><a href="service-freight-car.php">Freight Car</a></li>
+                <li><a href="service-locomotive.php">Locomotive</a></li>
+                <li><a href="service-engineered.php">Engineered Parts</a></li>
+                <li><a href="service-locomotive-repair.php">Locomotive Repair</a></li>
+                <li><a href="service-railcar-repair.php">Rail Car Repair</a></li>
+                <li><a href="service-railway-consult.php">Railway Consulting</a></li>
+                <li><a href="service-training.php">Training</a></li>
+                <li><a href="service-contract-distr.php">Contract Distribution</a></li>
+
               </ul>
             </div>
           </div>
