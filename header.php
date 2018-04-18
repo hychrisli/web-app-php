@@ -19,8 +19,19 @@
             </div>
           </div>
         </li>
+        <li class="has-sub">
+          <div class="drop-down-menu">
+            <a>Info</a>
+            <div class="dropdown-menu-wrap">
+              <ul>
+                <li><a href="login.php">Members</a></li>
+                <li><a href="register.php">Register</a></li>
+                <li><a href="search.php">Search User</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
         <li><a href="news.php">News</a></li>
-        <li><a href="login.php">Members</a></li>
         <li class="cta"><a href="contact.php">Contact</a></li>
       </ul>
     </nav>

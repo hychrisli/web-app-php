@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: Hongyuan(Chris)
- * Date: 4/3/18
- * Time: 12:55 PM
- */
+
 extract($_POST);
 
 if ( !$USERNAME || !$PASSWORD ) {
@@ -37,4 +32,3 @@ if ( $userVerified ){
   header("Location: login.php");
   die();
 }
-
