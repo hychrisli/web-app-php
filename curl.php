@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: chris
- * Date: 4/21/18
- * Time: 12:24 PM
- */
+
+$ch = curl_init("localhost/mydata.php");
+$content = curl_exec($ch);
+$regex = '#<table>(.*?)</table>#';
+$res = preg_match($regex, $content,$match );
+
+print($match[0]);
+curl_close($ch);
+
+
