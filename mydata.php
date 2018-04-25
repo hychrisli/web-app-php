@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   print (
-  "<table border = \"1\" cellpadding = \"3\" cellspacing = \"2\">
+  "<html><body><table border = \"1\" cellpadding = \"3\" cellspacing = \"2\">
                     <tr>
                       <td>First Name</td>
                       <td>Last Name</td>
@@ -30,5 +30,5 @@ if ($result->num_rows > 0) {
     }
     print ("</tr>");
   }
-  print("</table>");
+  print("</table></body></html>");
 }
