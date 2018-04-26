@@ -35,6 +35,7 @@
                 <li><a href="login.php">Members</a></li>
                 <li><a href="register.php">Register</a></li>
                 <li><a href="search.php">Search User</a></li>
+                <li><a href="all-users.php">All Users</a></li>
               </ul>
             </div>
           </div>
