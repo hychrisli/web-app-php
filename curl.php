@@ -1,6 +1,6 @@
 <?php
 
-$ch = curl_init("lamp.hychris.li/mydata.php");
+$ch = curl_init("gameseller.info/mydata.php");
 $options = array(
   CURLOPT_CUSTOMREQUEST  =>"GET",        //set request type post or get
   CURLOPT_POST           =>false,        //set to GET

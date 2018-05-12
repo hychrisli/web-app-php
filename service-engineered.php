@@ -1,5 +1,7 @@
-<?php include 'set-cookie.php';
+<?php include 'lib.php';
 setServiceCookie('Engineered Parts', basename($_SERVER['PHP_SELF']));
+if ( isset($_GET['username'])) setUser($_GET['username']);
+logVisit(28, $_GET['username']);
 ?>
 
 <?php include 'html-head.php'; ?>

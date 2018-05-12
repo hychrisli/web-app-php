@@ -1,5 +1,7 @@
-<?php include 'set-cookie.php';
-  setServiceCookie('Locomotive', basename($_SERVER['PHP_SELF']));
+<?php include 'lib.php';
+setServiceCookie('Locomotive', basename($_SERVER['PHP_SELF']));
+if (isset($_GET['username'])) setUser($_GET['username']);
+logVisit(27, $_GET['username']);
 ?>
 <?php include 'html-head.php'; ?>
 <body class="boxed">

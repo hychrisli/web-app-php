@@ -1,5 +1,7 @@
-<?php include 'set-cookie.php';
+<?php include 'lib.php';
 setServiceCookie('Bearings', basename($_SERVER['PHP_SELF']));
+if ( isset($_GET['username'])) setUser($_GET['username']);
+logVisit(24, $_GET['username']);
 ?>
 <?php include 'html-head.php'; ?>
 <body class="boxed">
