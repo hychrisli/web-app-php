@@ -1,5 +1,8 @@
 <?php
 
+define('TIMEZONE', 'US/Pacific');
+date_default_timezone_set(TIMEZONE);
+
 function setServiceCookie($name, $url)
 {
   if (isset($_COOKIE["VISIT_TS"])) {
@@ -39,6 +42,8 @@ function getUsername()
 
 function logVisit ($productId, $username){
 
+
+
   $DBUSER = getenv('MARKET_DB_USER');
   $DBPASS = getenv('MARKET_DB_PASS');
   $HOST = getenv('MARKET_HOST');
@@ -48,6 +53,8 @@ function logVisit ($productId, $username){
     die("Connection failed:" . $conn->connect_error);
   }
   $conn->set_charset("utf8");
+  $tz = (new DateTime('now', new DateTimeZone('US/Pacific')))->format('P');
+  $conn->query("SET time_zone='$tz';");
 
   if ( ! isset($username) ) $username = getUsername();
   if ( $username !== "NULL") $username = "'$username'";
@@ -56,4 +63,5 @@ function logVisit ($productId, $username){
   $sql = "INSERT INTO VISIT_LOG(productId, username, visitTs) VALUES($productId,$username,'$datetime');";
   $sql .= "UPDATE PRODUCT SET totVisits = totVisits + 1 where productId = $productId;";
   $conn->multi_query($sql);
+  $conn->close();
 }
